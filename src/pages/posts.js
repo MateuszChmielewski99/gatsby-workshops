@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from '../containers/Layout';
+import Layout from '../containers/layout';
 import { graphql } from "gatsby"
 import {PostLink} from "../components/post-link";
 
