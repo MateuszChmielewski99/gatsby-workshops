@@ -9,6 +9,7 @@ export default ({
 }) => {
     return (
         <Layout>
+            {edges.map(post => <PostLink post={post}></PostLink>)}
         </Layout>
     );
 }
